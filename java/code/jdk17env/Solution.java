@@ -1,8 +1,7 @@
-import java.util.Arrays;
-import java.util.Comparator;
+import java.io.IOException;
 
 class Solution {
-    public int maximumWealth(int[][] accounts) {
-        return Arrays.stream(accounts).map(c -> Arrays.stream(c).sum()).max(Comparator.naturalOrder()).orElse(0);
+    public static void main(String... argv) throws IOException {
+        System.out.println("1110".chars().filter(c -> c == '1').count());
     }
 }
