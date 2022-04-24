@@ -35,5 +35,4 @@ class Solution {
         int[] array = new int[]{3, 4, 23, 12, 35, 7};
         quickSort(array);
         System.out.println(array);
-    }
 }
